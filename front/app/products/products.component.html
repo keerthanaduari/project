@@ -1,0 +1,10 @@
+<div class="container">
+    <div class="product-details">
+      <img [src]="product.imageUrl" alt="{{ product.name }}">
+      <h1>{{ Lakme }}</h1>
+      <p class="description">{{ product.description }}</p>
+      <p class="price">Price: ${{ product.price}}</p>
+      <button (click)="addToCart(product)">Add to Cart</button>
+    </div>
+  </div>
+  
